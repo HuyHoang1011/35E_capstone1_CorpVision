@@ -756,6 +756,121 @@ button.navbar-toggler .icon-close {
 }
 
 
+/* dark theme */
+
+.dark#mybody {
+  background-color: #000;
+}
+
+.dark #navbarContent .dropdown-menu,
+.dark #navbarContent .dropdown-menu:before {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark #navbarContent .dropdown-menu:before {
+  border-right: none;
+  border-bottom: none;
+}
+
+.dark #switchButton .fa-sun-o {
+  display: block;
+}
+
+.dark #switchButton .fa-moon-o {
+  display: none;
+}
+
+.dark .carousel__overlay {
+  background-color: rgba(29, 42, 55, 0.8);
+}
+
+.dark header.nav-fixed,
+.dark section.about,
+.dark .work__item,
+.dark .services,
+.dark .services__info a,
+.dark section.progressing,
+.dark section.newsblog,
+.dark .card-body,
+.dark .card-footer,
+.dark #navbarContent .dropdown-menu,
+.dark #navbarContent .dropdown-menu:before,
+.dark .carousel .slick-arrow {
+  background-color: #151421;
+}
+
+.dark .carousel .slick-arrow {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .carousel__shape path {
+  fill: #151421;
+}
+
+.dark #navbarContent .nav-link {
+  color: #eee !important;
+}
+
+.dark .nav-fixed #navbarContent .nav-item.dropdown::after {
+  color: #fff;
+}
+
+.dark .nav-fixed .navbar-expand-lg .navbar-brand,
+.dark #navbarContent .header__modecontainer i,
+.dark .title__big,
+.dark section.about ul li a,
+.dark .work__item a,
+.dark .services__learnMore,
+.dark .progressing__inner-title,
+.dark .testimonials__blockquote p,
+.dark .testimonials__people h3,
+.dark .card-body-p2,
+.dark .card-footer ul li a,
+.dark #navbarContent .dropdown-item,
+.dark .carousel .slick-prev.slick-arrow:before,
+.dark .carousel .slick-next.slick-arrow:before {
+  color: #eee;
+}
+
+.dark .title__p,
+.dark .services__info p,
+.dark .newsblog__date p {
+  color: #c2c2c2;
+}
+
+.dark section.work,
+.dark section.gallery,
+.dark .progressing .progress,
+.dark .progress__small-button-1::after,
+.dark .progress__small-button-2::after,
+.dark .progress__small-button-3::after,
+.dark .progress__small-button-4::after,
+.dark section.testimonials {
+  background-color: #100f19 !important;
+}
+
+.dark .work__item a:hover,
+.dark .services__info a:hover,
+.dark .services__learnMore:hover,
+.dark .newsblog .card-body a:hover,
+.dark .newsblog .card-footer a:hover {
+  color: var(--primary-color);
+}
+
+.dark .services__info a {
+  color: #eee;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .gallery__logo,
+.dark .card-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .newsblog .card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+}
 /* --------responsive-------- */
 
 @media (min-width: 1280px) {
