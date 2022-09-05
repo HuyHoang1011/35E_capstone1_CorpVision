@@ -1689,8 +1689,14 @@ button.navbar-toggler .icon-close {
   color: #7e7d7d;
   /* display: block; */
 }
-.card{
+.dark .card.card__news{
+  background-color: #000;
+}
+
+.card.card__news{
   border-radius: 10px 10px 0 0 ;
+  border: 1px solid transparent;
+  overflow: hidden;
 }
 .card-footer {
   display: grid;
